@@ -9,7 +9,15 @@
         <button @click="subtraction(firstValue,secondValue)" >Subtraction</button>
         <button @click="multiplication(firstValue,secondValue)" >Multiplication</button>
         <button @click="divide(firstValue,secondValue)" >Divide</button>
-    </form>
+      </form>
+  
+      <!--FirstName LastName StudentCode-->
+      <div class="row" style="gap: 20px;">
+          <h2>Rungcharoen</h2>
+          <h2>Phosri</h2>
+          <h2>6404101335</h2>
+      </div>
+      
     </div>
   </template>
   <script>
